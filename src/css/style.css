@@ -1,0 +1,74 @@
+/* === Global Styles === */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+/* === Container Styles === */
+.collapse-container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* === Button Styles === */
+.collapse-button {
+  background-color: rgb(1, 123, 255);
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: ease 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.collapse-button:hover {
+  background-color: rgb(0, 105, 217);
+}
+
+.collapse-button:active {
+  border-color: rgb(147, 199, 254);
+  border-width: 4.5px;
+}
+
+/* === Content Wrapper Styles === */
+.content-wrapper {
+  margin-top: 10px;
+  position: relative;
+}
+
+/* === Collapsible Content Styles === */
+.collapsible-content {
+  display: none;
+  padding: 15px;
+  border: 1px solid rgb(237, 237, 237);
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+.collapsible-content.show {
+  display: block;
+}
+
+.collapsible-content p {
+  font-size: 18.5px;
+  margin: 0;
+}
+
+/* === Copy Text Styles === */
+.copy-text {
+  text-align: right;
+  margin-top: 5px;
+  color: rgb(152, 159, 164);
+  font-size: 12px;
+  cursor: pointer;
+}
